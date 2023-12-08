@@ -1,0 +1,44 @@
+.portofolio {
+	font-size: 36px;
+	text-align: center;
+	padding: 20px;
+}
+
+main {
+	font-family:  Geneva, 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+	background-color: rgba(179, 201, 189, 0.26);
+}
+
+.box-one div {
+	font-size: 36px;
+}
+
+.section-one, .section-two {
+	display: flex;
+	gap: 10px;
+	justify-content: space-evenly;
+}
+
+.section-two {
+	flex-wrap: wrap;
+	padding: 100px 20px
+}
+
+.card {
+	display: block;
+	background-color: rgba(179, 201, 189, 1);
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 56px;
+	width: 50px;
+}
+
+.profile-image {
+	border-radius: 50%;
+	object-fit: cover;
+	padding-top: 40px;
+	max-width: 250px;
+}
