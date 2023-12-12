@@ -26,9 +26,14 @@ main {
 
 .card {
 	display: block;
+	max-width: 350px;
 	background-color: rgba(179, 201, 189, 1);
 	padding: 20px;
 	text-align: center;
+}
+
+.projects-images {
+	max-width: 300px;
 }
 
 h1 {
@@ -42,4 +47,6 @@ h1 {
 	padding-top: 40px;
 	max-width: 250px;
 }
+
+
 
