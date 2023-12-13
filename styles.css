@@ -21,7 +21,7 @@ main {
 
 .section-two {
 	flex-wrap: wrap;
-	padding: 100px 20px
+	padding: 20px;
 }
 
 .card {
@@ -32,12 +32,13 @@ main {
 	text-align: center;
 }
 
+
 .projects-images {
 	max-width: 300px;
 }
 
 h1 {
-	font-size: 56px;
+	font-size: 46px;
 	width: 50px;
 }
 
@@ -45,8 +46,11 @@ h1 {
 	border-radius: 50%;
 	object-fit: cover;
 	padding-top: 40px;
-	max-width: 250px;
+	max-width: 200px;
 }
 
-
-
+h2 {
+	text-align: center;
+	padding-top: 80px;
+	font-size: 26px;
+}
