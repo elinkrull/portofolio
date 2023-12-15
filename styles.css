@@ -1,4 +1,4 @@
-.portofolio {
+.header {
 	font-size: 36px;
 	text-align: center;
 	padding: 20px;
@@ -7,34 +7,34 @@
 main {
 	font-family:  Geneva, 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
 	background-color: rgba(179, 201, 189, 0.26);
+	max-width: 100%;
 }
 
-.box-one div {
-	font-size: 36px;
-}
-
-.section-one, .section-two {
+.section-one {
 	display: flex;
 	gap: 10px;
 	justify-content: space-evenly;
 }
 
-.section-two {
+.section-three {
+	display: flex;
+	gap: 10px;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	padding: 20px;
 }
 
 .card {
 	display: block;
-	max-width: 350px;
+	max-width: 320px;
 	background-color: rgba(179, 201, 189, 1);
 	padding: 20px;
 	text-align: center;
 }
 
-
-.projects-images {
+.card-image {
 	max-width: 300px;
+	padding: 10px;
 }
 
 h1 {
@@ -43,6 +43,7 @@ h1 {
 }
 
 .profile-image {
+	display: none;
 	border-radius: 50%;
 	object-fit: cover;
 	padding-top: 40px;
@@ -54,3 +55,21 @@ h2 {
 	padding-top: 80px;
 	font-size: 26px;
 }
+
+.button {
+	width: 100px;
+	margin: 5px;
+	background-color: rgba(242, 255, 242, 1);
+	text-decoration: none;
+	border: none;
+}
+
+
+
+
+@media(min-width:300px) {
+
+
+
+}
+	
