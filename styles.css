@@ -137,6 +137,10 @@ h2 {
 		padding: 0px 50px;
 	}
 
+	.my-projects-header {
+		padding-top: 40px;
+	}
+
 }
 
 @media(min-width:1100px) {
