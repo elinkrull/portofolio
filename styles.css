@@ -42,10 +42,11 @@ h2 {
 }
 
 .card {
-	display: block;
+	display: grid;
+	grid-template-rows: 1fr;
 	max-width: 300px;
-	background-color: rgba(179, 201, 189, 1);
 	padding: 20px;
+	background-color: rgba(179, 201, 189, 1);
 	text-align: center;
 }
 
