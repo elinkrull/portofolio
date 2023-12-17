@@ -44,6 +44,7 @@ h2 {
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	padding: 20px;
+	padding-bottom: 80px;
 }
 
 .card {
@@ -53,6 +54,7 @@ h2 {
 	padding: 20px;
 	background-color: rgba(179, 201, 189, 1);
 	text-align: center;
+	box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .card-text {
@@ -149,6 +151,7 @@ h2 {
 		width: 250px;
 		overflow: hidden;
 		border-radius: 50%;
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 	}
 
 	.profile-image {
@@ -159,17 +162,17 @@ h2 {
 	}
 
 	.about-me-header {
-		padding-left: 30px;
+		padding-left: 50px;
 	}
 
 	.about-me-text {
 		display: flex;
-		padding: 0px 30px;
+		padding: 0px 50px;
 	}
 
 }
 
-@media(min-width:1300px) {
+@media(min-width:1200px) {
 
 	.about-me-text, .about-me-header {
 		padding: 0px 120px;
