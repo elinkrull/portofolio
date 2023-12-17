@@ -10,19 +10,24 @@ main {
 	max-width: 100%;
 }
 
-.section-one,
+.section-one {
+	display: block;
+	padding: 20px;
+}
+
 .section-two {
-	display: flex;
+	display: block;
 	padding: 20px;
 }
 
 h1 {
-	font-size: 36px;
-	width: 150px;
+	font-size: 46px;
+	line-height: 1.0;
+	width: 220px;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .profile-image {
@@ -80,6 +85,7 @@ h2 {
 	font-size: 16px;
 	color: black;
 	text-decoration: none;
+	display: block;
 }
 
 .button a:hover {
@@ -88,31 +94,16 @@ h2 {
 
 @media(min-width:600px) {
 
-	h1 {
-		font-size: 46px;
-		width: 50px;
-	}
-
 	h2 {
 		font-size: 32px;
+	}
+
+	.my-projects-header {
 		padding-top: 80px;
 	}
 
 	h3 {
 		font-size: 22px;
-	}
-
-	.profile-image {
-		display: flex;
-		border-radius: 50%;
-		height: 150px;
-		width: 100%;
-		object-fit: cover;
-		padding-top: 40px;
-	}
-
-	.section-one {
-		justify-content: space-evenly;
 	}
 
 	.section-three {
@@ -123,38 +114,65 @@ h2 {
 
 
 @media(min-width:850px) {
-
-	.profile-image {
-		height: 250px;
-	}
-
+	
 	.section-two div {
 		display: flex;
-	}
-
-	.about-me-text {
-		display: flex;
-		padding: 0px 50px;
 	}
 
 	.my-projects-header {
 		padding-top: 40px;
 	}
 
+	.about-me-text {
+		font-size: 20px;
+	}
+
 }
 
 @media(min-width:1100px) {
 
+	.section-one {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 5px;
+		padding-top: 60px;
+	}
+
+	.box-two {
+		text-align: center;
+		width: 400px;
+	}
+
+	.box-three {
+		height: 250px;
+		width: 250px;
+		overflow: hidden;
+		border-radius: 50%;
+	}
+
+	.profile-image {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.about-me-header {
+		padding-left: 30px;
+	}
+
 	.about-me-text {
-		padding: 0px 120px;
+		display: flex;
+		padding: 0px 30px;
 	}
 
 }
 
 @media(min-width:1300px) {
 
-	.about-me-text {
-		padding: 0px 180px;
+	.about-me-text, .about-me-header {
+		padding: 0px 120px;
 	}
 
 }
